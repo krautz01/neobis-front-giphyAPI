@@ -2,18 +2,34 @@
 <html lang="en">
   <head>
     <title>GiphyAPI</title>
+    <link rel="icon" href="./images/giphyAPI__logo.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="GiphyAPI" />
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
+    <header>
+      <div class="header__logo">
+        <img class="header__logo__img" src="./images/giphyAPI__logo.png" />
+        <h1 class="header__logo__text">GIPHY API</h1>
+      </div>
+      <input
+        type="text"
+        class="header__input"
+        id="search__input"
+        placeholder="Search for GIFs"
+      />
+      <button class="search__button" id="search__button"></button>
+    </header>
     <main class="app">
-      <h1>GiphyAPI</h1>
-      <p>Click the button to display a random gif.</p>
-      <button id="btn">Click me!</button>
-      <div id="gif"></div>
+      <div class="gif" id="gif"></div>
+      <div class="gif" id="gif"></div>
+      <div class="gif" id="gif"></div>
+      <div class="gif" id="gif"></div>
+      <div class="gif" id="gif"></div>
+      <div class="gif" id="gif"></div>
     </main>
-    <script src="./scripts/main.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
