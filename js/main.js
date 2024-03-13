@@ -34,7 +34,7 @@ function searchGIF(searchTerm) {
 }
 
 function displayGIFs(gifsData) {
-  const gifContainer = document.getElementById("gif");
+  const gifContainer = document.getElementById("app"); // Получаем контейнер для GIF
   gifContainer.innerHTML = ""; // Очищаем содержимое контейнера перед отображением новых GIF
 
   gifsData.forEach((gif) => {
@@ -48,7 +48,6 @@ function displayGIFs(gifsData) {
 
     figure.appendChild(img);
     figure.appendChild(figCaption);
-
     gifContainer.appendChild(figure);
   });
 }

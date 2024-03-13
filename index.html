@@ -2,33 +2,40 @@
 <html lang="en">
   <head>
     <title>GiphyAPI</title>
-    <link rel="icon" href="./images/giphyAPI__logo.png" />
+    <link rel="icon" href="./images/giphyAPI__logo.svg" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="GiphyAPI" />
     <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
       <div class="header__logo">
-        <img class="header__logo__img" src="./images/giphyAPI__logo.png" />
+        <img class="header__logo__img" src="./images/giphyAPI__logo.svg" />
         <h1 class="header__logo__text">GIPHY API</h1>
       </div>
-      <input
-        type="text"
-        class="header__input"
-        id="search__input"
-        placeholder="Search for GIFs"
-      />
-      <button class="search__button" id="search__button"></button>
+      <div class="header__search__block">
+        <input
+          type="text"
+          class="header__input"
+          id="search__input"
+          placeholder="Search for GIFs"
+        />
+        <button type="submit" class="search__button" id="search__button">
+          <i
+            class="fa fa-search"
+            aria-hidden="true"
+            src="./images/OIP.jpeg"
+          ></i>
+        </button>
+      </div>
     </header>
-    <main class="app">
-      <div class="gif" id="gif"></div>
-      <div class="gif" id="gif"></div>
-      <div class="gif" id="gif"></div>
-      <div class="gif" id="gif"></div>
-      <div class="gif" id="gif"></div>
-      <div class="gif" id="gif"></div>
+    <main class="app" id="app">
+      <!--  -->
     </main>
     <script src="./js/main.js"></script>
   </body>
