@@ -19,7 +19,7 @@ header {
     rgb(240, 103, 126),
     rgb(0, 255, 0)
   );
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .header__logo {
@@ -78,7 +78,7 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   align-items: center;
-  background: linear-gradient(70deg, purple, pink, red);
+  background: linear-gradient(70deg, rgb(31, 196, 147), rgb(185, 131, 140), rgb(210, 50, 197));
 }
 
 .app figure {
